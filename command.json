@@ -1,4 +1,27 @@
 {
-  "message": "Hey Susan 💛 Welcome to your new Mirror.",
-  "submessage": "messages, images, updates, 9/11 memes may appear here.",
+  "title": "Susan's Dashboard",
+  "sections": [
+    {
+      "header": "Daily Notes",
+      "items": [
+        "Good morning Susan ❤️",
+        "Remember to water your plants today 🌿",
+        "Dinner at 7:00 with Max 🍝"
+      ]
+    },
+    {
+      "header": "Reminders",
+      "items": [
+        "Laundry day tomorrow",
+        "Call mom this weekend"
+      ]
+    },
+    {
+      "header": "Quotes",
+      "items": [
+        "“You’re braver than you believe, stronger than you seem, and smarter than you think.”",
+        "“Little steps every day.”"
+      ]
+    }
+  ]
 }
