@@ -1,27 +1,7 @@
 {
-  "title": "Susan's Screen",
-  "sections": [
-    {
-      "header": "Daily Notes",
-      "items": [
-        "Good morning Susan ❤️",
-        "Remember to water your plants 🌿",
-        "Dinner with Max tonight 🍝"
-      ]
-    },
-    {
-      "header": "Reminders",
-      "items": [
-        "Laundry day tomorrow",
-        "Call mom this weekend"
-      ]
-    },
-    {
-      "header": "Quotes",
-      "items": [
-        "“You’re braver than you believe, stronger than you seem, and smarter than you think.”",
-        "“Little steps every day.”"
-      ]
-    }
-  ]
+  "message": "Hey Susan 💛 this is a test message from Max.",
+  "submessage": "If you can read this, everything is wired up perfectly.",
+  "image_url": "https://raw.githubusercontent.com/DAKboard/asset-examples/main/images/sunrise.jpg",
+  "updated": "2025-10-19T23:00:00-05:00"
 }
+
