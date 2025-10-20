@@ -1,5 +1,65 @@
 {
-  "message": "Hey Susan 💛",
-  "submessage": "I am more thankful for you. I have the last word so I win by default",
-  "updated": "manual"
+  "version": "1.0",
+  "last_updated_by": "Max",
+  "last_updated_iso": "2025-10-19T22:05:00-05:00",
+  "page": "default",
+  "sleep": {
+    "enabled": true,
+    "from": "22:30",
+    "to": "06:45",
+    "days": [1, 2, 3, 4, 5, 6, 0]
+  },
+  "display": {
+    "power": "auto",
+    "brightness": 70,
+    "cec": true
+  },
+  "theme": {
+    "background_url": "",
+    "tint_hex": "#000000",
+    "tint_opacity": 0.35,
+    "accent_hex": "#9bd497"
+  },
+  "message": {
+    "visible": true,
+    "title": "Hey Susan 💛",
+    "text": "New day, new chances.",
+    "expires": ""
+  },
+  "banner": {
+    "visible": false,
+    "text": "Hydrate and stretch ☺",
+    "until": ""
+  },
+  "logo": {
+    "visible": true,
+    "url": "",
+    "scale": 1.0
+  },
+  "notes": [
+    { "text": "Dinner @ Nana’s Tue 6p", "visible": true, "until": "" },
+    { "text": "Water the snake plant", "visible": false, "until": "" },
+    { "text": "Refill humidifier", "visible": false, "until": "" }
+  ],
+  "alerts": [
+    { "type": "reminder", "text": "Call dentist", "until": "2025-10-20T17:00:00-05:00", "visible": true }
+  ],
+  "countdowns": [
+    { "label": "Trip to Galveston", "target": "2025-11-08", "days_remaining": 20, "visible": false }
+  ],
+  "overrides": {
+    "birthday": {
+      "message": { "visible": true, "title": "🎂 Happy Birthday!!", "text": "Love you. Today’s all about you." },
+      "logo": { "visible": false }
+    },
+    "calm": {
+      "message": { "visible": true, "title": "Shhh… quiet morning", "text": "Soft start. Breathe in for 4, out for 6." },
+      "banner": { "visible": false }
+    }
+  },
+  "controls": {
+    "toggle_display": false,
+    "brightness_step": 0,
+    "page_next": false
+  }
 }
