@@ -1,65 +1,32 @@
 {
-  "version": "1.0",
-  "last_updated_by": "Max",
-  "last_updated_iso": "2025-10-19T22:05:00-05:00",
-  "page": "default",
-  "sleep": {
-    "enabled": true,
-    "from": "02:00",
-    "to": "05:00",
-    "days": [1, 2, 3, 4, 5, 6, 0]
-  },
-  "display": {
-    "power": "auto",
-    "brightness": 70,
-    "cec": true
-  },
-  "theme": {
-    "background_url": "",
-    "tint_hex": "#000000",
-    "tint_opacity": 0.35,
-    "accent_hex": "#9bd497"
-  },
-  "message": {
-    "visible": true,
-    "title": "Hey Susan 💛",
-    "text": "Es Mi Favorita.",
-    "expires": ""
-  },
-  "banner": {
-    "visible": false,
-    "text": "Make sure to get all your sleeps and all your eats",
-    "until": ""
-  },
-  "logo": {
-    "visible": true,
-    "url": "",
-    "scale": 1.0
-  },
-  "notes": [
-    { "text": "Mateo's Birthday", "visible": true, "until": "" },
-    { "text": "Avatar Concert", "visible": false, "until": "" },
-    { "text": "Charity Walk", "visible": false, "until": "" }
-  ],
-  "alerts": [
-    { "type": "reminder", "text": "Call dentist", "until": "2025-10-20T17:00:00-05:00", "visible": true }
-  ],
-  "countdowns": [
-    { "label": "Trip to Galveston", "target": "2025-11-08", "days_remaining": 20, "visible": false }
-  ],
-  "overrides": {
-    "birthday": {
-      "message": { "visible": true, "title": "🎂 Happy Birthday!!", "text": "Love you. Today’s all about you." },
-      "logo": { "visible": false }
+  "messages": {
+    "main": {
+      "visible": true,
+      "title": "Hey Susan 💛",
+      "text": "Es Mi Favorita",
+      "expires": ""
     },
-    "calm": {
-      "message": { "visible": true, "title": "Shhh… quiet morning", "text": "Soft start. Breathe in for 4, out for 6." },
-      "banner": { "visible": false }
-    }
-  },
-  "controls": {
-    "toggle_display": false,
-    "brightness_step": 0,
-    "page_next": false
+    "banners": [
+      {
+        "visible": true,
+        "text": "Get all your eats and all your sleeps.",
+        "expires": ""
+      },
+      {
+        "visible": false,
+        "text": "You make everything brighter 🌼",
+        "expires": ""
+      },
+      {
+        "visible": false,
+        "text": "Time for a snack break 🍎",
+        "expires": ""
+      },
+      {
+        "visible": false,
+        "text": "Take a deep breath 🌿",
+        "expires": ""
+      }
+    ]
   }
 }
