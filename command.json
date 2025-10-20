@@ -5,8 +5,8 @@
   "page": "default",
   "sleep": {
     "enabled": true,
-    "from": "22:30",
-    "to": "06:45",
+    "from": "02:00",
+    "to": "05:00",
     "days": [1, 2, 3, 4, 5, 6, 0]
   },
   "display": {
@@ -23,12 +23,12 @@
   "message": {
     "visible": true,
     "title": "Hey Susan 💛",
-    "text": "New day, new chances.",
+    "text": "Es Mi Favorita.",
     "expires": ""
   },
   "banner": {
     "visible": false,
-    "text": "Hydrate and stretch ☺",
+    "text": "Make sure to get all your sleeps and all your eats",
     "until": ""
   },
   "logo": {
@@ -37,9 +37,9 @@
     "scale": 1.0
   },
   "notes": [
-    { "text": "Dinner @ Nana’s Tue 6p", "visible": true, "until": "" },
-    { "text": "Water the snake plant", "visible": false, "until": "" },
-    { "text": "Refill humidifier", "visible": false, "until": "" }
+    { "text": "Mateo's Birthday", "visible": true, "until": "" },
+    { "text": "Avatar Concert", "visible": false, "until": "" },
+    { "text": "Charity Walk", "visible": false, "until": "" }
   ],
   "alerts": [
     { "type": "reminder", "text": "Call dentist", "until": "2025-10-20T17:00:00-05:00", "visible": true }
